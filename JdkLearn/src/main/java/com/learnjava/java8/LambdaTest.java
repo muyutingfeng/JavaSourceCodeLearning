@@ -18,9 +18,7 @@ public class LambdaTest {
         Converter<Integer, String> s = (param) -> System.out.println(String.valueOf(param + num));
 
         s.convert(2);
-
         System.out.println(addition.operation(1, 2));
-
     }
 
 
