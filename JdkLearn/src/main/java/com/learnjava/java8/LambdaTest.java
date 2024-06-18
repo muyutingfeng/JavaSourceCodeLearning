@@ -14,8 +14,6 @@ public class LambdaTest {
 
         //没有大括号的返回语句
         MathOperation division = (int a, int b) -> a / b;
-
-
         int num = 1;
         Converter<Integer, String> s = (param) -> System.out.println(String.valueOf(param + num));
 
